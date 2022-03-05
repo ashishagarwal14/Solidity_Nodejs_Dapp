@@ -113,7 +113,7 @@ const IsContractApp = () => {
     return (
         <div className={styles.main}>
             <Head>
-                <title>VendingMachine App</title>
+                <title>IsContract App</title>
                 <meta name="description" content="A blockchain app" />
             </Head>
             <nav className="navbar mt-4 mb-4">

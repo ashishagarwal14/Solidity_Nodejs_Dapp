@@ -1,4 +1,3 @@
-/* Example in Node.js */
 import Head from 'next/head'
 import 'bulma/css/bulma.css'
 import styles from '../styles/IsContract.module.css'
@@ -29,8 +28,7 @@ new Promise(async (resolve, reject) => {
 
 
             resolve(json);
-            console.log(json);
-            //console.log("STOP THE WAR");
+            //console.log(json);
 
             var x1 = json.data;
             var i = 0;
@@ -47,8 +45,6 @@ new Promise(async (resolve, reject) => {
                     //console.log('24_vol_change: ' + item.quote.USD.volume_change_24h)
                 }
             });
-            console.log(jsoncoins);
-            //console.log(jsoncoins[0].name);
         }
     }
     catch (ex) {
@@ -56,11 +52,6 @@ new Promise(async (resolve, reject) => {
     }
 });
 
-// const apicall = () => {
-//     return null
-// }
-
-// export default apicall
 
 const apicall = () => {
     const updateResult = async () => {
@@ -85,9 +76,7 @@ const apicall = () => {
                     break
                 }
             }
-            //console.log(ul);
             listDiv.appendChild(ul);
-            //console.log(listDiv);
         }
     }
     return (
